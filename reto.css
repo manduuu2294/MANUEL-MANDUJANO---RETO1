@@ -1,0 +1,76 @@
+.bloque {
+	font-family: sans-serif;
+	padding: 0 2% 0 2%;
+}
+
+body {
+	background: url(imagen.jpg);
+	padding: 0;
+	margin: 0;
+	font-family:times; 
+}
+
+body > header {
+	width: 100%;
+	position: fixed;
+	background-color: #124242;
+	opacity: 0.8;
+	padding: 0 0 0 2%;
+}
+
+h1, h2 {
+	display: inline-block;
+}
+
+body nav {
+	float: left;
+	width: 26%;
+	background-color: #124242;
+	margin: 100px 0 20px 2%;
+	padding: 0px;
+}
+
+body nav ol h3{
+	text-align: left;
+}
+
+body main {
+	float: right;
+	width: 61%;
+	background-color: #545454;
+	margin: 100px 2% 20px 0;
+	padding: 0px;
+}
+
+body main article {
+	text-align: center;
+}
+
+body main article footer {
+	text-align: left;
+	background-color: #545454;
+	margin: 0;
+	opacity: 1;
+}
+
+body main article article {
+	background-color:  #124242;
+}
+
+body main article article h3 {
+	text-align: left;
+}
+
+body main article article time p{
+	text-align: right;
+}
+
+body footer {
+	clear: both;
+	text-align: center;
+	background-color: gray;
+	opacity: 0.6;
+	padding: .5em;
+	height: 3.5em;
+}
+
